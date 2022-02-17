@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 :root {
-    --primary: #0ea5e9;
+    --primary: #0284c7;
+    --hover: #25a1df;
     --highlight: #facc14;
     --secondary: #e2e8f0;
     --white: #fafafa;
@@ -59,6 +60,11 @@ body {
     gap: 20px;
     align-items: center;
     padding: 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: var(--hover);
 }
 
 /*  HEADER */
@@ -116,7 +122,8 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: var(--primary);
+    box-shadow: #0000006b 1px 2px 4px;
+
 }
 
 .profile-pic img {
@@ -141,7 +148,7 @@ body {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
 }
 
 .greeting {
@@ -165,6 +172,11 @@ body {
     width: 100px;
     height: 40px;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--hover);
 }
 
 
